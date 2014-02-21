@@ -1,0 +1,13 @@
+// $Id$
+// vim:ft=javascript
+
+// If your extension references something external, use ARG_WITH
+// ARG_WITH("php-stringcharacteriterator", "for php-stringcharacteriterator support", "no");
+
+// Otherwise, use ARG_ENABLE
+// ARG_ENABLE("php-stringcharacteriterator", "enable php-stringcharacteriterator support", "no");
+
+if (PHP_PHP-STRINGCHARACTERITERATOR != "no") {
+	EXTENSION("php-stringcharacteriterator", "php-stringcharacteriterator.c");
+}
+
